@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Introducción formularios web</title>
+    <meta charset="utf-8">
+    <!--<meta name="description" content="Un formulario sirve para enviar datos a otra página que los recoge para usarlos o almacenarlos."/> -->
+	<link rel = "stylesheet" href="./Formulario.css">
+	<style>
+
+	</style>
+
+</head>
+<body>
+<!--action="#" target="" method="get" name="formDatosPersonales"-->
+<form >
+
+	<label for="nombre">Nombre</label>
+	<input type="text" name="nombre" id="nombre" placeholder="Karla"/>
+
+	<label for="apellidos">Apellidos</label>
+	<input type="text" name="apellidos" id="apellidos" placeholder="GT"/>
+
+	<label for="email">Email</label>
+	<input type="email" name="email" id="email" placeholder="karlagt@hotmail.com" required />
+
+	<label for="asunto">Asunto</label>
+	<input type ="text" name="asunto" id="asunto" placeholder="KarlaGT"/>
+
+	<label for="mensaje">Mensaje</label>
+	<textarea name="mensaje" for="mensaje" placeholder="Describe brevemente en menos de 300 carácteres" maxlength="300"></textarea>
+	
+	<input type="submit" name="enviar" value="Enviar datos"/>
+</form>
+
+</body>
+</html>
